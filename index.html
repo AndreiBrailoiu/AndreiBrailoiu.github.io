@@ -8,6 +8,33 @@
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
 
+img{
+	height:150px;
+    width: 150px;
+    border: solid yellow;
+    border-radius:10px;
+}
+
+ul{
+	border: dotted cyan;
+    border-radius:10px;
+    text-align:left;
+}
+
+body{
+	text-align: center;
+}
+
+p{
+	border: double red;
+    border-radius:10px;
+}
+
+footer{
+	color:white;
+    font-style:italic;
+}
+
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -34,11 +61,16 @@
 <p>This grid layout contains six columns and three rows:</p>
 
 <div class="grid-container">
-  <div class="item1">Header</div>
-  <div class="item2">Menu</div>
-  <div class="item3">Main</div>  
-  <div class="item4">Right</div>
-  <div class="item5">Footer</div>
+  <h1 class="item1">Some guy</h1>
+  <ul class="item2">Things he likes:
+  	<li>pizza</li>
+    <li>pasta</li>
+    <li>gelato</li>
+    <li>whisky</li>
+    </ul>
+  <p class="item3">Once upon a time there was thi guy who was instructed to publish a website on Github to try out something new.<br>Very exciting.<br>Much like.<br>Mucho gusto.</p>  
+  <img src="https://img.jakpost.net/c/2017/12/19/2017_12_19_37559_1513678721._large.jpg" alt="baby panda" class="item4">
+  <footer class="item5">by Andrei</footer>
 </div>
 
 </body>
